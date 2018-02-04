@@ -1,0 +1,27 @@
+{
+  "name": "mongo-news-scraper",
+  "version": "1.0.0",
+  "description": "app for scrapping news articles using mongo and cheerio package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babershere/mongo-news-scraper.git"
+  },
+  "author": "reyq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/babershere/mongo-news-scraper/issues"
+  },
+  "homepage": "https://github.com/babershere/mongo-news-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.3",
+    "request": "^2.83.0"
+  }
+}
